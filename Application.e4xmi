@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_c3AF0MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.application" bindingContexts="_c3AF2cjYEeSyMNYR5xypkQ">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_c3AF0cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.window.main" label="Empty E4 Application" width="500" height="400">
-    <children xsi:type="basic:PartSashContainer" xmi:id="_u_bOMA8UEe2J_rR5nGI1tw" elementId="rcp-swt-demo.partsashcontainer.0">
-      <children xsi:type="basic:PartStack" xmi:id="_BvbwkA8VEe2J_rR5nGI1tw" elementId="rcp-swt-demo.partstack.0">
-        <children xsi:type="basic:Part" xmi:id="_DitsEA8VEe2J_rR5nGI1tw" elementId="rcp-swt-demo.part.samplepart" contributionURI="bundleclass://rcp-swt-demo/handler.SamplePart" label="sample part" iconURI="platform:/plugin/rcp-swt-demo/icons/home.png"/>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_c3AF0cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.window.main" label="Empty E4 Application" width="800" height="600">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_u_bOMA8UEe2J_rR5nGI1tw" elementId="rcp-swt-demo.partsashcontainer.0" containerData="" horizontal="true">
+      <children xsi:type="basic:PartStack" xmi:id="_BvbwkA8VEe2J_rR5nGI1tw" elementId="rcp-swt-demo.partstack.0" containerData="99">
+        <children xsi:type="basic:Part" xmi:id="_DitsEA8VEe2J_rR5nGI1tw" elementId="rcp-swt-demo.part.samplepart" containerData="" contributionURI="bundleclass://rcp-swt-demo/handler.SamplePart" label="sample part" iconURI="platform:/plugin/rcp-swt-demo/icons/home.png"/>
       </children>
     </children>
   </children>
