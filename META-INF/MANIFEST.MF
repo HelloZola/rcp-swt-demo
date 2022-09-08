@@ -6,13 +6,18 @@ Bundle-Version: 1.0.0.qualifier
 Require-Bundle: javax.inject;bundle-version="0.0.0",
  org.eclipse.core.runtime;bundle-version="0.0.0",
  org.eclipse.swt;bundle-version="0.0.0",
- org.eclipse.e4.ui.model.workbench;bundle-version="0.0.0",
+ org.eclipse.e4.ui.model.workbench;bundle-version="2.1.400",
+ org.eclipse.e4.ui.workbench;bundle-version="1.10.0",
+ org.eclipse.e4.ui.workbench.renderers.swt;bundle-version="0.14.700",
  org.eclipse.jface;bundle-version="0.0.0",
+ org.eclipse.jface.text;bundle-version="0.0.0",
  org.eclipse.e4.ui.services;bundle-version="0.0.0",
- org.eclipse.e4.ui.workbench;bundle-version="0.0.0",
  org.eclipse.e4.core.di;bundle-version="0.0.0",
  org.eclipse.e4.ui.di;bundle-version="0.0.0",
- org.eclipse.e4.core.contexts;bundle-version="0.0.0"
+ org.eclipse.e4.core.contexts;bundle-version="0.0.0",
+ org.eclipse.ui;bundle-version="3.113.0",
+ org.eclipse.e4.ui.workbench.swt;bundle-version="0.14.600",
+ org.eclipse.ui.editors;bundle-version="3.11.500"
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Import-Package: javax.annotation;version="0.0.0"
 Automatic-Module-Name: rcp.swt.demo
